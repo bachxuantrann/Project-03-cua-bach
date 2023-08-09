@@ -27,6 +27,15 @@ a {
     z-index: 2;
     background-color: #fff;
 }
+.hero .info .cta {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+.hero .info .play {
+    padding-top: 40px;
+    margin-left: 10px;
+}
 .header .body {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -125,7 +134,6 @@ a {
     border-radius: 14px;
     background: #1ebfc1;
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
-    margin-top: 52px;
 }
 .hero .info .btn:hover {
     opacity: 0.7;
