@@ -406,7 +406,7 @@ a {
     left: 17px;
     width: 325px;
 }
-.img-detail .title {
+.img-detail .title a {
     color: #0d1111;
     font-family: Poppins;
     font-size: 2.2rem;
@@ -649,6 +649,9 @@ a {
 .footer {
     padding-top: 130px;
     padding-bottom: 50px;
+}
+.footer a:hover {
+    text-decoration: underline;
 }
 .footer .info {
     display: flex;
